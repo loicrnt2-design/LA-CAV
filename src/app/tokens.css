@@ -1,0 +1,44 @@
+:root {
+  color-scheme: light;
+  --cream: #f4efe8;
+  --paper: #fffcf8;
+  --stone: #655b54;
+  --stone-light: #ded4c8;
+  --ink: #161618;
+  --amber: #e39c65;
+  --amber-dark: #f1b481;
+  --danger: #942a27;
+  --radius: 8px;
+  --radius-pill: 999px;
+  --font-display: "Cormorant Garamond", "Times New Roman", serif;
+  --font-body: "Manrope", "Segoe UI", Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", "Courier New", monospace;
+  --text-xs: .75rem;
+  --text-sm: .875rem;
+  --text-base: 1rem;
+  --space-1: .5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+  --space-5: 3rem;
+  --space-6: 5rem;
+  --shadow-card: 0 16px 40px rgb(22 22 24 / .06);
+  --motion-duration: 180ms;
+  --motion-ease: ease-out;
+}
+
+.theme-dark {
+  color-scheme: dark;
+  --cream: #161618;
+  --paper: #202022;
+  --stone: #d3c9be;
+  --stone-light: #504b47;
+  --ink: #f4efe8;
+  --danger: #ff9a95;
+}
+
+[lang="ar"] {
+  --font-display: "Segoe UI", Tahoma, sans-serif;
+  --font-body: "Segoe UI", Tahoma, sans-serif;
+  --font-mono: "Segoe UI", Tahoma, sans-serif;
+}
